@@ -87,13 +87,14 @@
                             </h2>
                         </div>
                         <p>
-                            There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered alteration
-                            in some form, by injected humour, or randomised words which don't look even slightly
-                            believable. If you
-                            are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
-                            embarrassing hidden in
-                            the middle of text. All
+                            Selamat Datang di Healty Care!!<br> Platform yang didedikasikan
+                            untuk memberikan informasi seputar penyakit yang diderita anak khususnya daerah Jawa Barat.
+                            <br>Misi kami adalah menyediakan informasi yang dapat membantu memahami tren dan pola
+                            penyakit
+                            anak.
+                            dengan menggunakan Bisnis Intelejen, Kami berusaha untuk menyajikan data dalam bentuk
+                            visualisasi yang mudah dipahami dan berguna untuk pengambilan keputusan.
+
                         </p>
                         <a href="">
                             Read More
