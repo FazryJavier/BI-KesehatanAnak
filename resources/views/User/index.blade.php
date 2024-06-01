@@ -225,12 +225,9 @@
                         </div>
                         <p>
                             Kami berkomitmen meningkatkan kesehatan anak-anak di Jawa Barat melalui pemantauan
-                            gizi, imunisasi, dan penggunaan bisnis intelijen untuk analisis data kesehatan. Dengan
-                            memastikan asupan gizi yang baik dan pemantauan kesehatan yang ketat, kami berupaya mencegah
-                            masalah gizi buruk dan penyakit menular yang dapat menghambat perkembangan anak. Menggunakan
+                            gizi, imunisasi, dan penggunaan bisnis intelijen untuk analisis data kesehatan. Menggunakan
                             data kesehatan yang terintegrasi, kami dapat mengidentifikasi area yang memerlukan perhatian
-                            lebih dan merancang program kesehatan yang lebih efektif dan tepat sasaran, demi menciptakan
-                            masyarakat yang sehat dan sejahtera di masa depan.
+                            lebih dan merancang program kesehatan yang lebih efektif dan tepat sasaran.
                         </p>
                         <a href="">
                             Read More
