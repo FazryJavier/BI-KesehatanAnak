@@ -64,14 +64,14 @@
                             <option value="Admin">Admin</option>
                             <option value="Editor">Editor</option>
                         </select> --}}
+                    {{-- </div> --}}
+                    <div class="col-sm">
+                        <button href="/Admin" type="submit" class="btn btn-primary btn-block">Register</button>
+                    </div>
+                </form>
             </div>
-            <div class="col-sm">
-                <button href="/Admin" type="submit" class="btn btn-primary btn-block">Register</button>
-            </div>
-            </form>
+            <a href="/Admin" class="text-center mb-3">I already have a membership</a>
         </div>
-        <a href="/Admin" class="text-center mb-3">I already have a membership</a>
-    </div>
     </div>
 
     <!-- jQuery -->

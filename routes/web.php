@@ -24,4 +24,4 @@ Route::get('/Admin', [UserController::class, 'index'])->name('Admin');
 Route::post('/Admin', [UserController::class, 'authenticate']);
 
 Route::get('/Regis', [RegistrationController::class, 'index'])->name('Regis');
-Route::post('/Regis', [RegistrationController::class, 'store']);
+Route::post('/RegistrationJustForAdmin', [RegistrationController::class, 'store']);
