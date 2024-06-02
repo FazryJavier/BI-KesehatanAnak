@@ -19,15 +19,10 @@
 
 <body class="hold-transition register-page">
     <div class="register-box">
-        <div class="register-logo">
-            <a href="/" class="logo"><img src="{{ asset('assets/img/Logo Medismart.png') }}"
-                    alt="Medismart"class="logo" style="max-width: 200px;" /></a>
-        </div>
-
         <div class="card">
             <div class="card-body register-card-body">
-                <p class="login-box-msg">Register </p>
-                <form action="/RegistrationJustForAdmin" method="post">
+                <p class="login-box-msg">Registration For Admin</p>
+                <form action="/Regis" method="post">
                     @csrf
                     <div class="input-group mb-3">
                         <input type="text" name="username"
@@ -59,12 +54,6 @@
                             </div>
                         @enderror
                     </div>
-                    {{-- <div class="input-group mb-3">
-                        <select name="level" class="form-control">
-                            <option value="Admin">Admin</option>
-                            <option value="Editor">Editor</option>
-                        </select> --}}
-                    {{-- </div> --}}
                     <div class="col-sm">
                         <button href="/Admin" type="submit" class="btn btn-primary btn-block">Register</button>
                     </div>

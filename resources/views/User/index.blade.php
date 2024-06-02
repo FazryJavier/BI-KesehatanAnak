@@ -63,7 +63,7 @@
                             </li>
                         </ul>
                         <div class="quote_btn-container">
-                            <a href="" class="quote_btn">
+                            <a href="/Admin" class="quote_btn">
                                 Login
                             </a>
                         </div>

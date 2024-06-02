@@ -2,18 +2,17 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\LookerStudio;
 use Illuminate\Http\Request;
-use App\Models\User;
-use Illuminate\Support\Facades\Hash;
 
-class RegistrationController extends Controller
+class LookerStudioController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        return view('Admin.registration');
+        //
     }
 
     /**
@@ -29,23 +28,13 @@ class RegistrationController extends Controller
      */
     public function store(Request $request)
     {
-        $request->validate([
-            'username' => 'required|unique:users',
-            'password' => 'required|min:6',
-        ]);
-
-        User::create([
-            'username' => $request->input('username'),
-            'password' => Hash::make($request->input('password'))
-        ]);
-
-        return redirect('/Admin');
+        //
     }
 
     /**
      * Display the specified resource.
      */
-    public function show(string $id)
+    public function show(LookerStudio $lookerStudio)
     {
         //
     }
@@ -53,7 +42,7 @@ class RegistrationController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(string $id)
+    public function edit(LookerStudio $lookerStudio)
     {
         //
     }
@@ -61,7 +50,7 @@ class RegistrationController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, string $id)
+    public function update(Request $request, LookerStudio $lookerStudio)
     {
         //
     }
@@ -69,7 +58,7 @@ class RegistrationController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(string $id)
+    public function destroy(LookerStudio $lookerStudio)
     {
         //
     }

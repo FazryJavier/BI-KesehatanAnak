@@ -3,17 +3,15 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\User;
-use Illuminate\Support\Facades\Hash;
 
-class RegistrationController extends Controller
+class DashboardController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        return view('Admin.registration');
+        //
     }
 
     /**
@@ -29,17 +27,7 @@ class RegistrationController extends Controller
      */
     public function store(Request $request)
     {
-        $request->validate([
-            'username' => 'required|unique:users',
-            'password' => 'required|min:6',
-        ]);
-
-        User::create([
-            'username' => $request->input('username'),
-            'password' => Hash::make($request->input('password'))
-        ]);
-
-        return redirect('/Admin');
+        //
     }
 
     /**
