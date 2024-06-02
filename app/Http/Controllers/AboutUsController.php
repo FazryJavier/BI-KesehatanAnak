@@ -12,7 +12,9 @@ class AboutUsController extends Controller
      */
     public function index()
     {
-        //
+        $about = AboutUs::all();
+
+        return view('Admin.About.index', compact('about'));
     }
 
     /**

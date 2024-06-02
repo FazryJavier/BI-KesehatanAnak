@@ -27,7 +27,7 @@
             <div class="card-body login-card-body">
                 <p class="login-box-msg">Sign in to start your session</p>
 
-                <form action="/Admin" method="post">
+                <form action="/AboutUs" method="post">
                     @csrf
                     @method('POST')
                     <div class="input-group mb-3">
