@@ -59,12 +59,12 @@
                                 <a class="nav-link" href="service">Services</a>
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link" href="contact">Contact Us</a>
+                                <a class="nav-link" href="looker">Visualisasi</a>
                             </li>
                         </ul>
                         <div class="quote_btn-container">
-                            <a href="" class="quote_btn">
-                                Get A Quote
+                            <a href="/Admin" class="quote_btn">
+                                Login
                             </a>
                         </div>
                     </div>
@@ -74,51 +74,28 @@
         <!-- end header section -->
     </div>
 
-    <!-- contact section -->
+    <!-- visualization section -->
 
-    <section class="contact_section layout_padding">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-5 col-lg-4 offset-md-1">
-                    <div class="form_container">
-                        <div class="heading_container">
-                            <h2>
-                                Request A Call back
-                            </h2>
-                        </div>
-                        <form action="">
-                            <div>
-                                <input type="text" placeholder="Full Name " />
-                            </div>
-                            <div>
-                                <input type="email" placeholder="Email" />
-                            </div>
-                            <div>
-                                <input type="text" placeholder="Phone number" />
-                            </div>
-                            <div>
-                                <input type="text" class="message-box" placeholder="Message" />
-                            </div>
-                            <div class="d-flex ">
-                                <button>
-                                    SEND
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-7 px-0">
-                    <div class="map_container">
-                        <div class="map">
-                            <div id="googleMap"></div>
-                        </div>
+    <section class="case_section layout_padding">
+        <div class="container">
+            <div class="heading_container">
+                <h2>
+                    Visualisasi Data
+                </h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-12 justify-content-center">
+                    <div class="box">
+                        <iframe class="embed-responsive-item" width="100%" height="1800"
+                            src="{{ $lookerContent['lookerView'] }}" frameborder="0" style="border:0" allowfullscreen
+                            sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- end contact section -->
+    <!-- end visualization section -->
 
     <div class="footer_container">
         <!-- info section -->

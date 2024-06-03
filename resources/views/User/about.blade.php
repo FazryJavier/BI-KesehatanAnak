@@ -59,12 +59,12 @@
                                 <a class="nav-link" href="service">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contact">Contact Us</a>
+                                <a class="nav-link" href="looker">Visualisasi</a>
                             </li>
                         </ul>
                         <div class="quote_btn-container">
-                            <a href="" class="quote_btn">
-                                Get A Quote
+                            <a href="/Admin" class="quote_btn">
+                                Login
                             </a>
                         </div>
                     </div>
@@ -86,16 +86,7 @@
                                 About Us
                             </h2>
                         </div>
-                        <p>
-                            Selamat Datang di Healty Care!!<br> Platform yang didedikasikan
-                            untuk memberikan informasi seputar penyakit yang diderita anak khususnya daerah Jawa Barat.
-                            <br>Misi kami adalah menyediakan informasi yang dapat membantu memahami tren dan pola
-                            penyakit
-                            anak.
-                            dengan menggunakan Bisnis Intelejen, Kami berusaha untuk menyajikan data dalam bentuk
-                            visualisasi yang mudah dipahami dan berguna untuk pengambilan keputusan.
-
-                        </p>
+                        <p>{{ $aboutContent['descriptionView'] }}</p>
                         <a href="">
                             Read More
                         </a>

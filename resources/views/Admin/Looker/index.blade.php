@@ -1,7 +1,7 @@
 @extends('Admin.Layouts.master')
 
 @section('title')
-    Page About Us
+    Page Link Looker Studio
 @endsection
 
 @push('script')
@@ -22,7 +22,7 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-right mb-2">
-                <a class="btn btn-success" href="/AboutUs/create"> Create </a>
+                <a class="btn btn-success" href="/LookerStudio/create"> Create </a>
             </div>
         </div>
     </div>
@@ -31,18 +31,18 @@
         <thead>
             <tr>
                 <th class="col-sm-2">No</th>
-                <th class="col-sm-8">Description</th>
+                <th class="col-sm-8">Link Google Looker</th>
                 <th class="col-sm-2">Action</th>
             </tr>
         </thead>
         <tbody>
-            @forelse ($about as $key => $item)
+            @forelse ($link_looker as $key => $item)
                 <tr>
                     <td>{{ $key + 1 }}</td>
-                    <td>{{ $item->description }}</td>
+                    <td>{{ $item->link_looker }}</td>
                     <td>
-                        <form action="/AboutUs/{{ $item->id }}" method="POST">
-                            <a href="/AboutUs/{{ $item->id }}/update" type="button" class="btn btn-warning"><i
+                        <form action="/LookerStudio/{{ $item->id }}" method="POST">
+                            <a href="/LookerStudio/{{ $item->id }}/update" type="button" class="btn btn-warning"><i
                                     class="fa-solid fa-pen-to-square"></i></a>
                             @csrf
                             @method('delete')

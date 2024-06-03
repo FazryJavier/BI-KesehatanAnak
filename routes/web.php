@@ -8,19 +8,38 @@ use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('User.index');
+    $aboutController = app()->make(AboutUsController::class);
+    $aboutContent = $aboutController->showContent();
+
+    $lookerController = app()->make(LookerStudioController::class);
+    $lookerContent = $lookerController->showContent();
+
+    return view('User.index', [
+        'aboutContent' => $aboutContent,
+        'lookerContent' => $lookerContent,
+    ]);
 });
 
 Route::get('/about', function () {
-    return view('User.about');
+    $aboutController = app()->make(AboutUsController::class);
+    $aboutContent = $aboutController->showContent();
+
+    return view('User.about', [
+        'aboutContent' => $aboutContent,
+    ]);
 });
 
 Route::get('/service', function () {
     return view('User.service');
 });
 
-Route::get('/contact', function () {
-    return view('User.contact');
+Route::get('/looker', function () {
+    $lookerController = app()->make(LookerStudioController::class);
+    $lookerContent = $lookerController->showContent();
+
+    return view('User.looker', [
+        'lookerContent' => $lookerContent,
+    ]);
 });
 
 Route::get('/Admin', [UserController::class, 'index'])->name('Admin');

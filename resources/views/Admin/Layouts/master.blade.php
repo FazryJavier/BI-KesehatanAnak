@@ -38,10 +38,10 @@
     <div class="wrapper">
 
         <!-- Preloader -->
-        <div class="preloader flex-column justify-content-center align-items-center">
+        {{-- <div class="preloader flex-column justify-content-center align-items-center">
             <img class="animation__shake" src="{{ asset('assets/img/Logo Medismart.png') }}" alt="AdminLTELogo"
                 width="300">
-        </div>
+        </div> --}}
 
         <!-- Navbar -->
         @include('/Admin/Layouts/navbar')

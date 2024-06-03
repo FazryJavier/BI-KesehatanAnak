@@ -59,7 +59,7 @@
                                 <a class="nav-link" href="service">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contact">Contact Us</a>
+                                <a class="nav-link" href="looker">Visualisasi</a>
                             </li>
                         </ul>
                         <div class="quote_btn-container">
@@ -223,12 +223,7 @@
                                 About Us
                             </h2>
                         </div>
-                        <p>
-                            Kami berkomitmen meningkatkan kesehatan anak-anak di Jawa Barat melalui pemantauan
-                            gizi, imunisasi, dan penggunaan bisnis intelijen untuk analisis data kesehatan. Menggunakan
-                            data kesehatan yang terintegrasi, kami dapat mengidentifikasi area yang memerlukan perhatian
-                            lebih dan merancang program kesehatan yang lebih efektif dan tepat sasaran.
-                        </p>
+                        <p>{{ $aboutContent['descriptionView'] }}</p>
                         <a href="">
                             Read More
                         </a>
@@ -259,7 +254,7 @@
                 <div class="col-md-12 justify-content-center">
                     <div class="box">
                         <iframe class="embed-responsive-item" width="100%" height="1800"
-                            src="https://lookerstudio.google.com/embed/reporting/ad3662ca-fe35-459c-8041-8e87bc700004/page/p_qrt8pwaphd"
+                            src="{{ $lookerContent['lookerView'] }}"
                             frameborder="0" style="border:0" allowfullscreen
                             sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
                     </div>

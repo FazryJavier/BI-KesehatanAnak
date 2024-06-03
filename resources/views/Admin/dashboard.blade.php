@@ -1,7 +1,7 @@
 @extends('Admin.Layouts.master')
 
 @section('title')
-    Page About Us
+    Dashboard
 @endsection
 
 @push('script')
@@ -29,7 +29,11 @@
         </div>
     </div>
 
-    <table id="example1" class="table table-bordered table-striped">
+    <div class="content">
+        <h1>Selamat Datang di Dashboard Healthy Care</h1>
+    </div>
+
+    {{-- <table id="example1" class="table table-bordered table-striped">
         <thead>
             <tr>
                 <th class="col-sm-1">No</th>
@@ -42,7 +46,7 @@
                 <th class="col-sm-1">Action</th>
             </tr>
         </thead>
-        {{-- <tbody>
+        <tbody>
             @forelse ($about as $key => $item)
                 <tr>
                     <td>{{ $key + 1 }}</td>
@@ -77,6 +81,6 @@
             @empty
                 <h1>Data is Empty</h1>
             @endforelse
-        </tbody> --}}
-    </table>
+        </tbody>
+    </table> --}}
 @endsection
