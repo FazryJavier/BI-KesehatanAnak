@@ -67,4 +67,9 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/LookerStudio/{id}/update', [LookerStudioController::class, 'edit']);
     Route::put('/LookerStudio/{id}', [LookerStudioController::class, 'update']);
     Route::delete('/LookerStudio/{id}', [LookerStudioController::class, 'destroy']);
+
+    // Info Admin
+    Route::get('/InfoAdmin', [UserController::class, 'infoAdmin']);
+    Route::get('/InfoAdmin/create', [UserController::class, 'create']);
+    Route::post('/InfoAdmin', [UserController::class, 'store']);
 });

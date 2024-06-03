@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
 
 class UserController extends Controller
 {
@@ -16,12 +17,19 @@ class UserController extends Controller
         return view('Admin.login');
     }
 
+    public function infoAdmin()
+    {
+        $infoAdmin = User::all();
+
+        return view('Admin.InfoAdmin.index', compact('infoAdmin'));
+    }
+
     /**
      * Show the form for creating a new resource.
      */
     public function create()
     {
-        //
+        return view('Admin.InfoAdmin.create');
     }
 
     /**
@@ -29,7 +37,17 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'username' => 'required|unique:users',
+            'password' => 'required|min:6',
+        ]);
+
+        User::create([
+            'username' => $request->input('username'),
+            'password' => Hash::make($request->input('password'))
+        ]);
+
+        return redirect('/InfoAdmin');
     }
 
     /**
