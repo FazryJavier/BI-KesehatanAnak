@@ -99,7 +99,5 @@ class AboutUsController extends Controller
                 'descriptionView' => $description,
             ];
         }
-
-        abort(404);
     }
 }
