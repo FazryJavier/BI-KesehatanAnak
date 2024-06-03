@@ -56,7 +56,7 @@
                                 <a class="nav-link" href="about"> About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="service">Services</a>
+                                <a class="nav-link" href="service">Jenis Penyakit</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="looker">Visualisasi</a>
@@ -190,7 +190,7 @@
                                 Pneumonia
                             </h5>
                             <p>
-                                Gangguan fungsi paru-paru
+                                Gangguan peradangan pada paru-paru
                             </p>
                             <a href="">
                                 <span>
@@ -201,11 +201,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="btn-box">
-                <a href="">
-                    View More
-                </a>
             </div>
         </div>
     </section>
@@ -254,8 +249,7 @@
                 <div class="col-md-12 justify-content-center">
                     <div class="box">
                         <iframe class="embed-responsive-item" width="100%" height="1800"
-                            src="{{ $lookerContent['lookerView'] }}"
-                            frameborder="0" style="border:0" allowfullscreen
+                            src="{{ $lookerContent['lookerView'] }}" frameborder="0" style="border:0" allowfullscreen
                             sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
                     </div>
                 </div>
@@ -274,11 +268,11 @@
                     <div class="col-md-6 col-lg-3 ">
                         <div class="info_detail">
                             <h4>
-                                Digian
+                                Healthy Care
                             </h4>
                             <p>
-                                Necessary, making this the first true generator on the Internet. It uses a dictionary of
-                                over 200 Latin words, combined with a handful
+                                Meningkatkan Kesehatan Anak-Anak Jawa Barat melalui Pemantauan Gizi, Imunisasi, dan
+                                Analisis Data Terintegrasi
                             </p>
                         </div>
                     </div>

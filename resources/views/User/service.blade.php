@@ -56,7 +56,7 @@
                                 <a class="nav-link" href="about"> About</a>
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link" href="service">Services</a>
+                                <a class="nav-link" href="service">Jenis Penyakit</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="looker">Visualisasi</a>
@@ -79,10 +79,10 @@
         <div class="container">
             <div class="heading_container">
                 <h2>
-                    Our Services
+                    Kenali Jenis Penyakit Anak
                 </h2>
                 <p>
-                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Hindari penyakit yang sering diderita oleh anak.
                 </p>
             </div>
             <div class="row">
@@ -93,10 +93,10 @@
                         </div>
                         <div class="detail-box">
                             <h5>
-                                Link Building
+                                Stunting
                             </h5>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                Gangguan tinggi badan pada anak
                             </p>
                             <a href="">
                                 <span>
@@ -114,10 +114,10 @@
                         </div>
                         <div class="detail-box">
                             <h5>
-                                On page SEO
+                                Demam Berdarah
                             </h5>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                Penyakit oleh nyamuk Aedes Aegepti
                             </p>
                             <a href="">
                                 <span>
@@ -135,10 +135,10 @@
                         </div>
                         <div class="detail-box">
                             <h5>
-                                Online Marketing
+                                Kurang Gizi
                             </h5>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                Gangguan tumbuh kembang anak
                             </p>
                             <a href="">
                                 <span>
@@ -156,10 +156,10 @@
                         </div>
                         <div class="detail-box">
                             <h5>
-                                Email Marketing
+                                Pneumonia
                             </h5>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                Gangguan peradangan pada paru-paru
                             </p>
                             <a href="">
                                 <span>
@@ -170,11 +170,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="btn-box">
-                <a href="">
-                    View More
-                </a>
             </div>
         </div>
     </section>
@@ -190,11 +185,11 @@
                     <div class="col-md-6 col-lg-3 ">
                         <div class="info_detail">
                             <h4>
-                                Digian
+                                Healthy Care
                             </h4>
                             <p>
-                                Necessary, making this the first true generator on the Internet. It uses a dictionary of
-                                over 200 Latin words, combined with a handful
+                                Meningkatkan Kesehatan Anak-Anak Jawa Barat melalui Pemantauan Gizi, Imunisasi, dan
+                                Analisis Data Terintegrasi
                             </p>
                         </div>
                     </div>

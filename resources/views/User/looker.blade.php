@@ -56,7 +56,7 @@
                                 <a class="nav-link" href="about"> About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="service">Services</a>
+                                <a class="nav-link" href="service">Jenis Penyakit</a>
                             </li>
                             <li class="nav-item active">
                                 <a class="nav-link" href="looker">Visualisasi</a>
@@ -106,11 +106,11 @@
                     <div class="col-md-6 col-lg-3 ">
                         <div class="info_detail">
                             <h4>
-                                Digian
+                                Healthy Care
                             </h4>
                             <p>
-                                Necessary, making this the first true generator on the Internet. It uses a dictionary of
-                                over 200 Latin words, combined with a handful
+                                Meningkatkan Kesehatan Anak-Anak Jawa Barat melalui Pemantauan Gizi, Imunisasi, dan
+                                Analisis Data Terintegrasi
                             </p>
                         </div>
                     </div>
