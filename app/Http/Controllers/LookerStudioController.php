@@ -99,5 +99,7 @@ class LookerStudioController extends Controller
                 'lookerView' => $link_looker,
             ];
         }
+
+        abort(404);
     }
 }
