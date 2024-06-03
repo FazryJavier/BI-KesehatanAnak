@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Admin | NCI-Medismart</title>
+    <title>Admin Healthy Care</title>
     <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/logo NCI-01.png') }}">
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet"
@@ -44,11 +44,11 @@
         </div>
 
         <!-- Navbar -->
-        @include('/AdminPage/Layouts/navbar')
+        @include('/Admin/Layouts/navbar')
         <!-- /.navbar -->
 
         <!-- Main Sidebar Container -->
-        @include('/AdminPage/Layouts/sidebar')
+        @include('/Admin/Layouts/sidebar')
         <!-- /.sidebar -->
 
         <!-- Content Wrapper. Contains page content -->
@@ -84,7 +84,7 @@
                         </div>
                     </div>
                     <div class="card-body">
-                        @include('AdminPage.Layouts.flash-message')
+                        @include('Admin.Layouts.flash-message')
                         @yield('content')
                     </div>
                     <!-- /.card-body -->
