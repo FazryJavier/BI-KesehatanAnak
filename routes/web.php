@@ -53,12 +53,12 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/dashboard', [DashboardController::class, 'index']);
 
     // About Us
-    Route::get('/AboutUs', [AboutUsController::class, 'index']);
-    Route::get('/AboutUs/create', [AboutUsController::class, 'create']);
-    Route::post('/AboutUs', [AboutUsController::class, 'store']);
-    Route::get('/AboutUs/{id}/update', [AboutUsController::class, 'edit']);
-    Route::put('/AboutUs/{id}', [AboutUsController::class, 'update']);
-    Route::delete('/AboutUs/{id}', [AboutUsController::class, 'destroy']);
+    Route::get('/KabarTerkini', [AboutUsController::class, 'index']);
+    Route::get('/KabarTerkini/create', [AboutUsController::class, 'create']);
+    Route::post('/KabarTerkini', [AboutUsController::class, 'store']);
+    Route::get('/KabarTerkini/{id}/update', [AboutUsController::class, 'edit']);
+    Route::put('/KabarTerkini/{id}', [AboutUsController::class, 'update']);
+    Route::delete('/KabarTerkini/{id}', [AboutUsController::class, 'destroy']);
 
     // Looker Studio
     Route::get('/LookerStudio', [LookerStudioController::class, 'index']);

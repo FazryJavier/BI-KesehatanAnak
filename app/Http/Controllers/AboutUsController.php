@@ -36,7 +36,7 @@ class AboutUsController extends Controller
 
         AboutUs::create($validatedData);
 
-        return redirect('/AboutUs')->with('success', 'Data created successfully!');
+        return redirect('/KabarTerkini')->with('success', 'Data created successfully!');
     }
 
     /**
@@ -73,7 +73,7 @@ class AboutUsController extends Controller
 
         $about->update($validatedData);
 
-        return redirect('/AboutUs')->with('success', 'Data updated successfully!');
+        return redirect('/KabarTerkini')->with('success', 'Data updated successfully!');
     }
 
     /**
@@ -85,7 +85,7 @@ class AboutUsController extends Controller
 
         $about->delete();
 
-        return redirect('/AboutUs')->with('error', 'Data deleted successfully!');
+        return redirect('/KabarTerkini')->with('error', 'Data deleted successfully!');
     }
 
     public function showContent()

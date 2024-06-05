@@ -1,7 +1,7 @@
 @extends('Admin.Layouts.master')
 
 @section('title')
-    Page About Us
+    Page Kabar Terkini
 @endsection
 
 @push('script')
@@ -22,7 +22,7 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-right mb-2">
-                <a class="btn btn-success" href="/AboutUs/create"> Create </a>
+                <a class="btn btn-success" href="/KabarTerkini/create"> Create </a>
             </div>
         </div>
     </div>
@@ -41,8 +41,8 @@
                     <td>{{ $key + 1 }}</td>
                     <td>{{ $item->description }}</td>
                     <td>
-                        <form action="/AboutUs/{{ $item->id }}" method="POST">
-                            <a href="/AboutUs/{{ $item->id }}/update" type="button" class="btn btn-warning"><i
+                        <form action="/KabarTerkini/{{ $item->id }}" method="POST">
+                            <a href="/KabarTerkini/{{ $item->id }}/update" type="button" class="btn btn-warning"><i
                                     class="fa-solid fa-pen-to-square"></i></a>
                             @csrf
                             @method('delete')

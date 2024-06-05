@@ -1,11 +1,11 @@
 @extends('Admin.Layouts.master')
 
 @section('title')
-    Page About Us
+    Page Kabar Terkini
 @endsection
 
 @section('content')
-    <form method="POST" action="/AboutUs" enctype="multipart/form-data">
+    <form method="POST" action="/KabarTerkini" enctype="multipart/form-data">
         @csrf
         @method('POST')
         <div class="mb-3">
@@ -16,7 +16,7 @@
             <div class="alert alert-danger">{{ $message }}</div>
         @enderror
         <button type="submit" class="btn btn-success">Create</button>
-        <a href="/AboutUs" type="button" class="btn btn-secondary">Back</a>
+        <a href="/KabarTerkini" type="button" class="btn btn-secondary">Back</a>
     </form>
 
     <style>
