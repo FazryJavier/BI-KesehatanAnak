@@ -53,7 +53,7 @@
                                 <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="about"> About</a>
+                                <a class="nav-link" href="kabar">Kabar Terkini</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="service">Jenis Penyakit</a>
@@ -215,7 +215,7 @@
                     <div class="detail-box">
                         <div class="heading_container">
                             <h2>
-                                About Us
+                                Kabar Terkini
                             </h2>
                         </div>
                         <p>{{ $aboutContent['descriptionView'] }}</p>

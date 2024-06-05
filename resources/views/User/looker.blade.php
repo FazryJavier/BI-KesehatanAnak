@@ -53,7 +53,7 @@
                                 <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="about"> About</a>
+                                <a class="nav-link" href="kabar">Kabar Terkini</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="service">Jenis Penyakit</a>

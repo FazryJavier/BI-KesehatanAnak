@@ -20,11 +20,11 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/about', function () {
+Route::get('/kabar', function () {
     $aboutController = app()->make(AboutUsController::class);
     $aboutContent = $aboutController->showContent();
 
-    return view('User.about', [
+    return view('User.kabar', [
         'aboutContent' => $aboutContent,
     ]);
 });
