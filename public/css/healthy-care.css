@@ -253,3 +253,27 @@ img { max-width: 100%; height: auto; }
 .hc-footer ul { list-style: none; padding: 0; margin: 0; }
 .hc-footer li { margin-bottom: var(--hc-space-2); }
 .hc-footer__note { border-top: 1px solid rgba(255, 255, 255, .15); margin-top: var(--hc-space-6); padding-top: var(--hc-space-4); font-size: var(--hc-text-xs); }
+
+/* News */
+.hc-newscard { display: flex; flex-direction: column; }
+.hc-newscard h3 a { color: var(--hc-ink); text-decoration: none; }
+.hc-newscard h3 a:hover { color: var(--hc-teal-700); text-decoration: underline; }
+.hc-newscard p { flex: 1; color: var(--hc-ink-muted); }
+.hc-newscard__meta { display: flex; flex-wrap: wrap; align-items: center; gap: var(--hc-space-2) var(--hc-space-3); margin-bottom: var(--hc-space-3); }
+.hc-newscard__more { font-weight: 700; }
+.hc-badge--sky { background: var(--hc-sky-100); color: var(--hc-ink); }
+.hc-badge--mint { background: var(--hc-mint-100); color: var(--hc-ink); }
+.hc-filters { display: flex; flex-wrap: wrap; gap: var(--hc-space-2); margin-bottom: var(--hc-space-6); }
+.hc-chip {
+  display: inline-flex; align-items: center; min-height: 44px; padding: 0 var(--hc-space-4);
+  border: 2px solid var(--hc-line); border-radius: var(--hc-radius-pill);
+  color: var(--hc-ink); font-weight: 700; text-decoration: none; background: var(--hc-white);
+}
+.hc-chip:hover { border-color: var(--hc-teal-600); color: var(--hc-teal-700); text-decoration: none; }
+.hc-chip.is-active { background: var(--hc-teal-600); border-color: var(--hc-teal-600); color: var(--hc-white); }
+.hc-prose { max-width: 70ch; font-size: var(--hc-text-lg); }
+.hc-prose h2, .hc-prose h3 { margin-top: var(--hc-space-6); }
+.hc-prose blockquote { border-left: 4px solid var(--hc-sun-400); padding-left: var(--hc-space-4); color: var(--hc-ink-muted); }
+.hc-pagination { margin-top: var(--hc-space-5); }
+.hc-pagination .pagination { gap: var(--hc-space-2); }
+.hc-pagination .page-link { border-radius: var(--hc-radius-pill); color: var(--hc-teal-700); min-height: 44px; display: inline-flex; align-items: center; }

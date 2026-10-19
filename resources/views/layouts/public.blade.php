@@ -7,6 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="@yield('description', 'Healthy Care: pemantauan gizi, imunisasi, dan data penyakit anak Jawa Barat.')">
     <title>@yield('title', 'Healthy Care') — Data Kesehatan Anak</title>
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Healthy Care">
+    <meta property="og:title" content="@yield('title', 'Healthy Care') — Data Kesehatan Anak">
+    <meta property="og:description" content="@yield('description', 'Healthy Care: pemantauan gizi, imunisasi, dan data penyakit anak Jawa Barat.')">
+    <meta property="og:locale" content="id_ID">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,7 +41,6 @@
                         <li class="nav-item"><a class="nav-link {{ request()->is('kabar') ? 'active' : '' }}" href="{{ url('/kabar') }}">Kabar Terkini</a></li>
                         <li class="nav-item"><a class="nav-link {{ request()->is('service') ? 'active' : '' }}" href="{{ url('/service') }}">Jenis Penyakit</a></li>
                         <li class="nav-item"><a class="nav-link {{ request()->is('looker') ? 'active' : '' }}" href="{{ url('/looker') }}">Visualisasi Data</a></li>
-                        <li class="nav-item ml-lg-3"><a class="hc-btn hc-btn--secondary" href="{{ url('/admin') }}">Masuk Admin</a></li>
                     </ul>
                 </div>
             </nav>
@@ -70,6 +74,7 @@
             <p class="hc-footer__note mb-0">
                 Informasi di situs ini bukan pengganti konsultasi dengan tenaga kesehatan.
                 &copy; {{ date('Y') }} Healthy Care.
+                <a href="{{ url('/admin') }}">Masuk pengelola</a>
             </p>
         </div>
     </footer>
