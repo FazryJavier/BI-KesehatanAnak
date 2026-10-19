@@ -5,6 +5,7 @@ namespace App\Filament\Pages;
 use Filament\Auth\Pages\Login as BaseLogin;
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Component;
+use Illuminate\Validation\ValidationException;
 
 class Login extends BaseLogin
 {
@@ -32,7 +33,7 @@ class Login extends BaseLogin
 
     protected function throwFailureValidationException(): never
     {
-        throw \Illuminate\Validation\ValidationException::withMessages([
+        throw ValidationException::withMessages([
             'data.username' => __('filament-panels::auth/pages/login.messages.failed'),
         ]);
     }
