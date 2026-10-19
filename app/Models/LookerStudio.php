@@ -8,6 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class LookerStudio extends Model
 {
     use HasFactory;
-    protected $table='looker_studios';
-    protected $guarded=[];
+
+    protected $fillable = ['url'];
 }
